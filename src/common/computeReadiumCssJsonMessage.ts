@@ -60,7 +60,7 @@ export const computeReadiumCssJsonMessage = (settings: ReaderConfig): IEventPayl
             settings.theme === "contrast4" ? "#C5E7CD" :
             settings.theme === "brown" ? "#bcc17b" :
             settings.theme === "grayblue" ? "#88a8d3" :
-            settings.theme === "purpleblue" ? "#9aabdf" :
+            settings.theme === "purpleblue" ? "#aebcb8" :
             readiumCSSDefaults.backgroundColor,
         textColor: (!settings.theme || settings.theme === "neutral") ? readiumCSSDefaults.textColor :
             settings.theme === "sepia" ? "black" :
